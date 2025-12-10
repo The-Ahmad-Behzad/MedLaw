@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.Python
+
+# Environment
+.env
+.env.local
+.env.production
+.env.development
+
+# Build outputs
+.next/
+dist/
+build/
+out/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Storage (rebuild from source)
+pipeline/storage/uploads/*
+!pipeline/storage/uploads/.gitkeep
+pipeline/storage/chunks/*
+!pipeline/storage/chunks/.gitkeep
+
+# Vector index (can be rebuilt)
+pipeline/embed-and-vec-search/vector_index/*.index
+pipeline/embed-and-vec-search/vector_index/*.pkl
+
+# Testing
+.pytest_cache/
+coverage/
+.coverage
+*.cover
+htmlcov/
+
+# Misc
+*.bak
+*.tmp
+*.temp
+
